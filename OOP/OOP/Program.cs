@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace OOP
 {
@@ -10,6 +11,34 @@ namespace OOP
     {
         static void Main(string[] args)
         {
+        }
+    }
+
+    public class Person
+    {
+        private string name;
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                this.Name = name;
+            }
+        }
+        private int aldre;
+        public int Aldre
+        {
+            get
+            {
+                return aldre;
+            }
+            set
+            {
+                this.Aldre = aldre;
+            }
         }
     }
 }
