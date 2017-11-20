@@ -14,7 +14,7 @@ namespace OOP
         }
     }
 
-    public class Person
+    class Person
     {
         private string name;
         public string Name
@@ -38,6 +38,21 @@ namespace OOP
             set
             {
                 this.Aldre = aldre;
+            }
+        }
+    }
+    class City
+    {
+        private string name;
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+
             }
         }
     }
